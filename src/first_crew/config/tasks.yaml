@@ -1,0 +1,54 @@
+proponent_opening_statement_task:
+  description: "Present your opening statement in favor of {debate_topic}. This should be a strong, persuasive introduction to your case."
+  expected_output: "A compelling opening statement of about 250 words."
+  agent: proponent
+
+opponent_opening_statement_task:
+  description: "Present your opening statement against {debate_topic}, responding to the proponent's initial points if possible."
+  expected_output: "A compelling opening statement of about 250 words, countering the proponent."
+  agent: opponent
+
+proponent_rebuttal_1_task:
+  description: "Deliver your first rebuttal, addressing the opponent's opening statement and reinforcing your own arguments."
+  expected_output: "A sharp, focused rebuttal of about 250 words."
+  agent: proponent
+
+opponent_rebuttal_1_task:
+  description: "Deliver your first rebuttal, countering the proponent's latest points and strengthening your position."
+  expected_output: "A sharp, focused rebuttal of about 250 words."
+  agent: opponent
+
+proponent_rebuttal_2_task:
+  description: "Deliver your second rebuttal, continuing to dismantle the opponent's case and building on your own."
+  expected_output: "A second strong rebuttal of about 250 words."
+  agent: proponent
+
+opponent_rebuttal_2_task:
+  description: "Deliver your second rebuttal, exposing flaws in the proponent's arguments and providing further counter-evidence."
+  expected_output: "A second strong rebuttal of about 250 words."
+  agent: opponent
+
+proponent_rebuttal_3_task:
+  description: "Deliver your third and final rebuttal, making a last push to solidify your case."
+  expected_output: "A third strong rebuttal of about 250 words."
+  agent: proponent
+
+opponent_rebuttal_3_task:
+  description: "Deliver your third and final rebuttal, making a last push to solidify your case."
+  expected_output: "A third strong rebuttal of about 250 words."
+  agent: opponent
+
+proponent_closing_statement_task:
+  description: "Deliver your closing statement, summarizing your key arguments and leaving a lasting impression on the judge."
+  expected_output: "A powerful closing statement of about 300 words."
+  agent: proponent
+
+opponent_closing_statement_task:
+  description: "Deliver your closing statement, summarizing your counter-arguments and highlighting the weaknesses of the proponent's case."
+  expected_output: "A powerful closing statement of about 300 words."
+  agent: opponent
+
+judge_task:
+  description: "After reviewing all 5 rounds of the debate, objectively evaluate the arguments from both the proponent and the opponent. Your evaluation should be based on the logical strength of their arguments, the evidence they present, and their overall persuasiveness. Declare a winner and provide a detailed justification for your decision."
+  expected_output: "A final verdict on the debate, including a declaration of the winner and a comprehensive explanation of the reasoning behind the decision for each round. The verdict should be fair, impartial, and well-supported."
+  agent: judge
